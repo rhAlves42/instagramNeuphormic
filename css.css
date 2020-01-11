@@ -1,0 +1,66 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #121212;
+    color: #565555;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screenHolder {
+    width: 21vw;
+    height: 76vh;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    box-shadow: 
+    6px 6px 4px 0 rgba(0, 0, 0, 0.3),
+    -6px -6px 4px 0 rgba(0, 0, 0, 0.3);
+}
+.preferencesHolder {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
+    border-bottom: .01em rgba(0, 0, 0, .3) solid;
+}
+.preferencesHolder .iconHolder {
+    width: 26px;
+    height: 26px;
+    padding: .08rem;
+    border-radius: 1rem;
+    box-shadow:
+    0 4px 4px 0 rgba(0, 0, 0, 0.3),
+    0 -3px 4px 0 rgba(255, 255, 255, 0.3);
+    transform: scale(-1, 1);
+}
+
+.userNameHolder {
+    font-size: .8rem;
+    vertical-align: bottom;
+}
+
+/* icons color #565555 */
+.menuHolder {
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    vertical-align: bottom;
+}
+.fa-user-plus {
+    transform: translate(20%, 20%);
+}
+.fa-cog {
+    transform: translate(30%, 30%);
+}
+
+.fa-user-plus,
+.fa-cog {
+    text-align: center;
+    align-self:center;
+}
