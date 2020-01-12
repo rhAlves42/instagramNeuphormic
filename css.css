@@ -5,6 +5,7 @@ body {
     background-color: #121212;
     color: #565555;
 }
+a {text-decoration: none;}
 
 .container {
     height: 100vh;
@@ -19,8 +20,8 @@ body {
     border-radius: 1.5rem;
     padding: 1rem;
     box-shadow: 
-    6px 6px 4px 0 rgba(0, 0, 0, 0.3),
-    -6px -6px 4px 0 rgba(0, 0, 0, 0.3);
+    6px 1px 1px 0 rgba(0, 0, 0, 0.3),
+    -1px -1px 1px 0 rgba(255, 255, 255, 0.3);
 }
 .preferencesHolder {
     display: flex;
@@ -43,6 +44,74 @@ body {
 .userNameHolder {
     font-size: .8rem;
     vertical-align: bottom;
+}
+
+.profileHolder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+.profileHolder .imageHolder {
+    border-radius: 3rem;
+    width: 85px;
+    height: 85px;
+    padding: .1rem;
+    border: 3px solid #0C154A;
+    box-shadow:
+    0 1px 1px 0 rgba(0, 0, 0, 0.3),
+    0 -2px 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.profileHolder .imageHolder img {
+    display: block;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 3rem;
+    transform: translate(0%, 3%);
+}
+
+.infoHolder {
+    display: flex ;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.numbersHolder {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.numbersHolder .numbers {
+    width: 33.33%;
+    font-size: .6rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+.numbersHolder .numbers p {
+    font-size: .6rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: .2rem;
+}
+
+.followHolder {
+    text-align: center;
+    padding: .2rem;
+    width: 60%;
+    margin: auto;
+    box-shadow:
+    0 1px 1px 0 rgba(0, 0, 0, 0.3),
+    0 -2px 1px 0 rgba(255, 255, 255, 0.3);
+}
+.followHolder::after {
+    content: "r";
+    padding-inline-start: 1rem;
 }
 
 /* icons color #565555 */
