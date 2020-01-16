@@ -183,6 +183,8 @@ a {text-decoration: none;}
     vertical-align: bottom;
     z-index: 222;
 }
+
+
 .fa-user-plus {
     transform: translate(20%, 20%);
 }
