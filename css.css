@@ -83,6 +83,7 @@ a {text-decoration: none;}
     height: 65px;
     border-radius: 3rem;
     transform: translate(0%, 3%);
+    object-fit: cover;
 }
 
 .infoHolder {
@@ -216,4 +217,13 @@ a {text-decoration: none;}
     display: flex;
     margin: auto;
     align-content: center;
+}
+.thanks {
+    text-align: center;
+    font-size: 0.7em;
+    color: #565555;
+    font-family: 'Montserrat', sans-serif;
+}
+.thanks h3{
+    margin-top: 2rem;
 }
