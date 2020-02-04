@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 7" width="12" height="7">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #84878a } 
+	</style>
+	<path id="Icon ionic-md-arrow-dropdown" class="shp0" d="M0.84 0.92L6 6.08L11.16 0.92L0.84 0.92Z" />
+</svg>

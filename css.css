@@ -195,6 +195,12 @@ a {text-decoration: none;}
     align-self: center;
 }
 
+.imagesHolder .images img{
+    width: 84px;
+    height: 84px;
+    object-fit: cover;
+}
+
 /* icons color #565555 */
 .menuHolder {
     display: flex;
